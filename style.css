@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=PT+Sans&family=Rubik:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgba(100, 94, 94, 0.662);
+   transition: transform 0.3s ease-in;
+    height: 138vh;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: white;
+    width: 100vw;
+    height: 120vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: white;
+    height: 61vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.name{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.about{
+    font-size: 150%;
+    font-family: 'PT Sans', sans-serif;
+}
+.moreabout{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+    }
+
+.devPic img {
+    height: 71vh;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 1rem;
+    margin-right: 1rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid rgba(8, 8, 8, 0.875);
+    color: #1b1818;
+}
+
+.title{
+    text-align: center;
+    margin: 0 1%;
+    margin-right: 1%;
+    font-size: 3rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid black;
+    color: black;
+}
+.main2{
+    width: 100vw;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px;
+}
+.content1{
+    flex: 1 1 30rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.heading2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.contentss{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.h3{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.fas{
+    padding-right: 1rem;
+    color:  #1691ed;
+}
+.Hi{
+    display: flex;
+    align-items: center;
+    font-size: 1.35rem;
+    color: #111111;
+    padding: 1rem 0;
+    font-weight: normal;
+
+}
+
+.icon_container_by_mk {
+    width: 100%;
+}
+.custom_icon_by_mk {
+    color: rgb(60, 60, 60);
+    margin: 0 10px;
+    cursor: pointer;
+}
+.info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 2%;
+}
+.para_by_mk_1 {
+    color: #1b1a1a;
+    font-size: 1.4rem;
+}
+.i2{
+    font-family: "Arial";
+}
+.abh3{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.btn{
+    padding: 0.7rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 9rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    }
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 5%;
+    padding-left: 5%;
+}
+.box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid #2a2828;
+    position: relative;
+}
+.I{
+    position: absolute;
+    top: -3rem;
+    left: -2.2rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+.box1{
+    height: 14rem;
+    width: 22rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box1:hover img{
+        transform: scale(1.2);
+}
+.sp{
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 0.15rem 2.5rem;
+}
+.sidebarGo{
+    transform: translate(-433px, 0px);
+    position: absolute;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 179px;
+}
+.heading3{
+    text-align: center;
+    margin: 0 3%;
+    margin-right: 1%;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid rgba(8, 8, 8, 0.875);
+    color: #1b1818;
+}
+.custom_icon_by_mk:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+
+
+
